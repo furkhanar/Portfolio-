@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Furkhan's Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <header id="home">
+        <i class="fa-solid fa-bars" id="menubar" onclick="showmenu()"></i>
+        <pre><b>Furkhan AR</b>
+        <i>Iam Web developer</i></pre>
+        <div id="sidemenu">
+            <i class="fa-solid fa-circle-user" id="user"></i>
+            <h1>Mohammed Furkhan AR</h1>
+
+            <nav>
+                <ul>
+                    <li><i class="fa-solid fa-house"></i><a href="#home">Home</a></li>
+                    <li><i class="fa-solid fa-user-tie"></i><a href="#about">About</a></li>
+                    <li><i class="fa-solid fa-graduation-cap"></i><a href="#skills">Skills</a></li>
+                    <li><i class="fa-regular fa-pen-to-square"></i><a href="#projects">Projects</a></li>
+                    <li><i class="fa-regular fa-address-card"></i><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <div class="education-container">
+            <h3>Education</h3>
+            <h5>B.Sc in Computer Science</h5>
+        <p>As a student I'm passionate about learning and exploring the latest technologies and trends in web
+            development. I'm currently diving into the world of HTML, CSS, JAVASCRIPT, PYTHON and SQL.</p>
+        <h2>UI/UX Designer & Web Developer</h2>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-card"><i class="fab fa-html5"></i> <label for="">HTML</label>
+                <progress value="96" max="100"></progress>
+            </div>
+            <div class="skill-card"><i class="fab fa-css3-alt"></i> <label for="">CSS</label>
+                <progress value="85" max="100"></progress>
+            </div>
+            <div class="skill-card"><i class="fa-brands fa-js"></i> <label for="">JAVASCRIPT</label>
+                <progress value="66" max="100"></progress>
+            </div>
+            <div class="skill-card"><i class="fab fa-css3-alt"></i> <label for="">RESPONSIVE DESIGN</label>
+                <progress value="85" max="100"></progress>
+            </div>
+            <div class="skill-card"><i class="fa-brands fa-github"></i> <label for="">GIT & GITHUB</label>
+                <progress value="75" max="100"></progress>
+            </div>
+            <div class="skill-card"><i class="fa-brands fa-js"></i> <label for=""> AJAX</label>
+                <progress value="69" max="100"></progress>
+            </div>
+             <div class="skill-card"><i class="fa-brands fa-js"></i> <label for=""> React</label>
+                <progress value="69" max="100"></progress>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project-grid">
+
+            <div class="project-card">
+                <h3>To-Do List App</h3>
+                <p>A simple task manager built with HTML, CSS, and JavaScript. It allows users to add, complete, and
+                    delete tasks.</p>
+
+                <a href="https://furkhanar.github.io/my-task/" target="_blank">GitHub</a>
+            </div>
+
+            <div class="project-card">
+                <h3>My Portfolio</h3>
+                <p>This personal portfolio website showcases my skills, projects, and contact form. Built with
+                    responsive design in mind.</p>
+                <a href="https://github.com/yourusername/portfolio" target="_blank">GitHub</a>
+            </div>
+
+            <div class="project-card">
+                <h3>Tip Calculator</h3>
+                <p>A simple tip calculator that allows users to enter a bill amount, select a tip percentage, and
+                    instantly see the tip and total amount. Built with HTML, CSS, and JavaScript.</p>
+                <a href="https://github.com/yourusername/portfolio" target="_blank">GitHub</a>
+            </div>
+            <!-- Add more projects as needed -->
+
+        </div>
+    </section>
+
+
+    <section id="contact">
+        <h1>Contact Me</h1>
+        <div class="container1">
+            <form id="contactForm">
+                <label>Name: <input type="text" name="name" placeholder="Enter Your Name" required></label>
+                <label>Email: <input type="email" name="email" placeholder="Enter Your Mail ID"></label>
+                <label>Reason:
+                    <select name="reason">
+                        <option value="hire">Hiring</option>
+                        <option value="collab">Collaboration</option>
+                    </select>
+                </label>
+                <label>Message:<br><textarea name="message" rows="4" required></textarea></label>
+                <label>I agree to terms<input type="checkbox" required> </label>
+                <button type="submit">Send</button>
+            </form>
+            <div id="socialmedia">
+                <h3>Connect with us on social media</h3>
+                <a href="https://www.instagram.com/mdfurqan043"><i class="fa-brands fa-instagram" id="insta"> </i></a>
+                <a href=""><i class="fa-brands fa-twitter" id="twitter"> </i></a>
+                <a href=""><i class="fa-brands fa-facebook" id="facebk"> </i></a>
+                <a href="https://www.linkedin.com/in/mohammed-furkhan-ar-9508a52a3/"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+            </div>
+            <div id="contactus">
+               <h3> <i class="fa-solid fa-envelope"> </i> Call Us</h3><p>8838847678</p>
+                <h3><i class="fa-solid fa-phone"> </i>Email Us</h3><p>mdfurkhanar@gmail.com</p>
+                <h3><i class="fa-solid fa-location-dot"></i>Address</h3><p>64/A1 5th street Teacher's Colony Khaderpet Vaniyambadi.</p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d243.27880434996914!2d78.62238611881484!3d12.68331455142489!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bada9bb542af2d5%3A0xa28e0722bb1206e0!2sKhaderpet%2C%20Teachers%20Colony%2C%20Vaniyambadi%2C%20Tamil%20Nadu%20635751!5e0!3m2!1sen!2sin!4v1749615056266!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>                
+            </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Furkhan AR. All rights reserved.</p>
+    </footer>
+
+</body>
+
+</html>
+<script>
+    
+    
+const sidemenu = document.getElementById("sidemenu");
+    const icon = document.getElementById("menubar");
+    const navLinks = document.querySelectorAll("#sidemenu nav  a");
+    function showmenu() {
+
+    if (sidemenu.style.left === "0%") {
+        sidemenu.style.left = "-100%"; // hide menu
+        icon.className = "fa-solid fa-bars"; // show hamburger icon
+    } else {
+        sidemenu.style.left = "0%"; // show menu
+        icon.className = "fa-solid fa-xmark"; // show close icon
+    }
+}
+navLinks.forEach(link => {
+  link.addEventListener("click", () => {
+    sidemenu.style.left = "-100%";
+    icon.className = "fa-solid fa-bars";
+  });
+});
+
+  
+</script>
+<style>
+    /* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background: #f9f9f9;
+}
+
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+header {
+    background-image: url("https://images.unsplash.com/photo-1533134486753-c833f0ed4866?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8cG9ydGZvbGlvJTIwYmFja2dyb3VuZHxlbnwwfHwwfHx8MA%3D%3D://images.unsplash.com/32/Mc8kW4x9Q3aRR3RkP5Im_IMG_4417.jpg?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=https://images.unsplash.com/photo-1533134486753-c833f0ed4866?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=https://images.unsplash.com/photo-1533134486753-c833f0ed4866?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8cG9ydGZvbGlvJTIwYmFja2dyb3VuZHxlbnwwfHwwfHx8MA%3D%3D%3D%3D%3D%3D://media.istockphoto.com/id/1437887123/photo/blank-screen-glass-laptop-neon-lighting-background-with-geometric-shapes.webp?a=1&b=1&s=612x612&w=0&k=20&c=KMMJgvYiMeUZHIxIr_kel_TtCf0l-K-SCZrYYF9dGxg=");
+    background-repeat: no-repeat;
+    background-size: cover;
+  padding: 200px 20px 50px 20px;
+  margin-left: 17rem;
+  height: auto;
+  width: auto;
+}
+
+
+#menubar{
+    font-size: 30px;
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    display: none;
+}
+
+header pre {
+    font-size: 45px;
+    color:azure;
+    
+}
+
+#sidemenu {
+    background-color: black;
+    height: 1000%;
+    width: 250px;
+    position: fixed;
+    color: #f9f9f9;
+    top: 0%;
+    padding: 15px;
+    padding-top: 50px;
+    left: 0%;
+    transition: 2s;
+
+}
+
+#sidemenu h1 {
+    font-size: 20px;
+}
+#user {
+    font-size: 50px;
+    padding-top: 20px;
+    padding-left: 80px;
+}
+
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    list-style: none;
+    gap: 20px;
+    font-size: 25px;
+}
+nav i{
+    padding-left: 10px;
+    
+    font-size: 20px;
+   
+}
+
+
+nav a {
+    color: aqua;
+    text-decoration: none;
+}
+
+/* Sections */
+section {
+    padding: 2rem;
+}
+
+/* Form */
+form {
+    display: grid;
+    max-width: 500px;
+}
+
+#about {
+    margin: 20px;
+    margin-left: 20rem;
+    height: fit-content;
+    width: fit-content;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #888888;
+}
+
+/* Progress Bars */
+#skills {
+    margin: 20px;
+    margin-left: 20rem;
+    height: fit-content;
+    
+    background-color: whitesmoke;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #888888;
+}
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 2fr));
+    gap: 3rem;
+    
+}
+
+.skill-card {
+    background: #f0f0   f0;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 10px;
+    font-weight: bold;
+    
+    transition: transform 0.3s;
+}
+
+.skill-card label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 0.3rem;
+}
+
+progress {
+    width: 100%;
+    height: 20px;
+}
+
+.skill-card:hover {
+    transform: scale(1.05);
+    background-color: #ddd;
+}
+
+#projects {
+     margin: 20px;
+    margin-left: 20rem;
+    height: fit-content;
+    width: fit-content;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #888888;
+}
+
+.project-grid {
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
+
+.project-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 1rem;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.project-card:hover {
+    transform: scale(1.02);
+}
+
+.project-card img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}
+
+.project-card a {
+    display: inline-block;
+    margin-right: 10px;
+    text-decoration: none;
+    color: #0077cc;
+    font-weight: bold;
+}
+
+#contact {
+    margin-left: 20rem;
+    margin-right: 20px;
+    height: fit-content;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #888888;
+    display: flex;
+    color: #0077cc;
+    
+
+}
+
+
+
+#socialmedia i {
+    padding-right: 10px;
+    font-size: larger;
+    margin-left: 30px;
+}
+
+.container1 {
+    width: 100%;
+    height: fit-content;
+    background-color: whitesmoke;
+    margin: 40px;
+    padding: 60px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #888888;
+
+}
+#contactForm button{
+    background-color: #0077cc;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    height: 30px;
+}
+
+#contactus {
+    width: 100%;
+    height: fit-content;
+    background-color: whitesmoke;
+    margin: 40px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #888888;
+}
+#contactus p{
+    color: #333;
+}
+iframe{
+    width: min-content;
+    height: 390px;
+}
+#contactus i{
+ color: #0077cc;
+ font-size: 30px;
+ padding-right: 80px;
+ padding-left: 10px;    
+}
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 30px;
+    color: black;
+}
+
+
+/* Responsive */
+@media (max-width: 600px) {
+  header {
+    margin-left:-90px;
+    height: auto;
+    width: auto;
+    text-align: center;
+  }
+
+  header pre {
+    font-size: 28px;
+
+    
+  }
+
+  #sidemenu {
+     background-color: black;
+    height: 1000%;
+    width: 250px;
+    position: fixed;
+    color: #f9f9f9;
+    top: 0%;
+    padding: 10px;
+    left: -80%;
+    transition: 2s;
+  }
+  nav i{
+    padding-left: 5px;
+  }
+  #menubar{
+    display: block;
+    color: white;
+    background-color:#0077cc;
+    width: 30px;
+    padding: 5px;
+    border-radius: 40%;
+    font-size: 20px;
+  }
+
+  nav ul {
+    
+    font-size: 18px;
+  }
+li{
+    padding-bottom: 20px;
+}
+  #about,
+  #skills,
+  #projects,
+  #contact {
+    margin: 10px;
+    width: auto;
+  }
+
+  .skills-grid {
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 1rem;
+  }
+
+  .project-grid {
+    grid-template-columns: 1fr;
+  }
+
+  #contact {
+    flex-direction: column;
+    margin: 10px;
+    padding: 10px;
+  }
+
+  .container1,
+  #contactus {
+    margin: 0px;
+    padding: 10px;
+    width: 90%;
+    margin-bottom: 10px;
+  }
+  input,select,textarea{
+    width: 250px
+  }
+
+  iframe {
+    width: 100%;
+    height: 200px;
+  }
+
+  #menubar {
+    display: block;
+  }
+}
+
+</style>
